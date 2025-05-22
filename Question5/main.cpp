@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <memory>  // For smart pointers
-#include <cmath>   // For fabs()
-#include <iomanip> // For output formatting
-#include <stdexcept> // For exceptions
+#include <memory>
+#include <cmath>
+#include <iomanip>
+#include <stdexcept>
 
 /**
  * @class Node
@@ -214,9 +214,7 @@ std::shared_ptr<Node> build_example_tree() {
     return root;
 }
 
-/**
- * @brief Main function demonstrating tree construction and validation
- */
+
 int main() {
     try {
         // Build the example tree
